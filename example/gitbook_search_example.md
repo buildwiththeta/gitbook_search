@@ -10,7 +10,7 @@ import 'package:gitbook_search/gitbook_search.dart';
 
 Future<void> main() async {
   GitBookSearch.initialize(token: 'token');
-  final res = await GitBookSearch.I.client.search.query("Column widget");
+  final res = await GitBookSearch.I.client.search.query("...");
   if (res.error != null) {
     print('Error, code: ${res.error?.code}, message: ${res.error?.message}');
   }

@@ -2,8 +2,8 @@ import 'package:gitbook_search/src/instance.dart';
 import 'package:light_logger/light_logger.dart';
 
 void main() async {
-  GitBookSearch.initialize(
-      token: 'gb_api_V7USbqbNwRYjvuYy84CHAo5AJ3tywzsPD3hiRku7');
+  final token = '';
+  GitBookSearch.initialize(token: token);
   final res = await GitBookSearch.I.client.search.query("Column widget");
   if (res.error != null) {
     Logger.printError(
