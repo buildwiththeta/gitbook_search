@@ -3,4 +3,5 @@
 /// More dartdocs go here.
 library gitbook_search;
 
-export 'src/instance.dart';
+export 'src/index.dart';
+export 'src/models/index.dart';
