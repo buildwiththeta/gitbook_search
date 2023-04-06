@@ -1,6 +1,6 @@
 # GitBook search
 
-A wrapper API for GitBook to search across pages and spaces.
+A wrapper API for [GitBook](https://gitbook.io) to search across pages and spaces.
 Useful for Saas or products with a search bar for docs and knowledge base.
 
 ### Initialization
