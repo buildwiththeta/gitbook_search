@@ -1,5 +1,5 @@
 name: gitbook_search
-description: A starting point for Dart libraries or applications.
+description: A wrapper API for GitBook to search across pages and spaces. Useful for Saas or products with a search bar for docs and knowledge base.
 version: 0.0.1
 repository: https://github.com/teta-so/gitbook_search
 

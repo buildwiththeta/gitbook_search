@@ -13,13 +13,13 @@ void main() async {
   final answer = res.data as AIAnswer;
 
   /// The Column widget is used to create a vertical layout for any UI ...
-  final text = answer.text;
+  print(answer.text);
 
   /// What is the Main Axis and Cross Axis in a Column widget?
-  final followUpQuestions = answer.followupQuestions;
+  print(answer.followupQuestions);
 
   /// The pages that contain the answer.
-  final pages = answer.pages;
+  print(answer.pages);
 
   final spaces = await GitBookSearch.I.client.getSpaces();
   if (spaces.error != null) {
